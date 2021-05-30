@@ -14,5 +14,6 @@
 }
 .app-wrapper-content{
   grid-area: c;
-  border-left: 1px solid aqua;
+  border-left: 2px solid aqua;
+  padding-left: 20px;
 }

@@ -4,13 +4,35 @@
 }
 .dialogsItems{
     padding: 10px;
+    text-align: center;
+}
+.dialog{
+    padding: 5px;
+    background-color: #34ebeb;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.dialog a{
+    text-decoration: none;
+    color: white;
+}
+.dialog .active{
+
 }
 .dialogsItems .active{
-    color: gold;
+    border: 1px solid #34ebeb;
+    color: #34ebeb;
+    background-color: white;
+}
+.dialogsItems .active a{
+    color: #34ebeb;
 }
 .messages {
     padding: 10px;
 }
 .message {
-
+    border-radius: 5px;
+    background-color: #34ebeb;
+    padding: 5px;
+    margin-bottom: 5px;
 }
