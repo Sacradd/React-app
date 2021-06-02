@@ -1,13 +1,10 @@
 import classes from './MyPosts.module.css'
 import Post from './Post/Post'
 
-const MyPosts = () => {
+const MyPosts = (props) => {
+    debugger;
+    let postItem = props.posts.map( p => <Post message={p.message}  count={p.likesCount}/>);
 
-    let posts = [
-        {id: 1, message: 'Hi? how are you?', likesCount: 20},
-        {id: 3, message: 'Its my first post', likesCount:30}
-    ]
-    let postItem = posts.map( p => <Post message={p.message}  count={p.likesCount}/>);
     return (
         <div>
             <h3>My posts</h3>
