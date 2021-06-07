@@ -19,7 +19,8 @@ let state = {
             {id: 3, name: 'Serega'},
             {id: 4, name: 'Sanek'}
         ]
-    }
+    },
+    sitebar: {}
 }
 
 export default state;
